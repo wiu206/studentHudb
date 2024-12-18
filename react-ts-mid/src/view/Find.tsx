@@ -11,7 +11,7 @@ export default function Find() {
     try {
       const response = await asyncGet(`${api.findByID}?id=${ID}`);
       if (response?.code == 200) {
-        alert("找到了哦！");
+        alert("找到了");
         setID("");
         setStudent(response.body);
       } else {
@@ -24,7 +24,7 @@ export default function Find() {
 
   return (
     <div className="container1">
-      <input type="text" placeholder="請輸入ID" onChange={(e) => setID(e.target.value)} required />
+      <input type="text" placeholder="輸入ID" onChange={(e) => setID(e.target.value)} required />
       <button onClick={handleSubmit}>尋找</button>
       <div className="student">
         <p>帳號: {student?.userName}</p>

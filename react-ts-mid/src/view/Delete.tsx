@@ -22,7 +22,7 @@ export default function Delete() {
 
     return (
         <div className="container1">
-            <input type="text" placeholder="請輸入ID" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
+            <input type="text" placeholder="輸入ID" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
             <button onClick={handleDelete}>刪除</button>
             <a className="return" href="#">返回</a>
         </div>
