@@ -1,22 +1,22 @@
-/* 根容器設置 */
+
 #root {
-    max-width: 100%; /* 設置為全寬，使根容器充滿視窗寬度 */
-    margin: 0 auto; /* 將根容器設置為自動水平居中 */
-    padding: 2rem; /* 設置內邊距，給容器內部添加空間 */
-    text-align: center; /* 設置文本居中對齊 */
-    color: #212121; /* 設置文本顏色為深灰色 */
-    background-color: #fffafc; /* 設置背景顏色為柔和的粉白色 */
-    font-family: 'Caveat', 'DFKai-SB', '標楷體', 'serif'; /* 設置字體為 'Caveat' 和標楷體，具有少女風格 */
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 2rem; 
+    text-align: center; 
+    color: #212121; 
+    background-color: #fffafc; 
+    font-family: 'Caveat', 'DFKai-SB', '標楷體', 'serif'; 
 }
 
-/* 表單容器設置 */
+
 .container1 {
-    display: flex; /* 使用 Flexbox 進行布局 */
-    flex-direction: column; /* 設置子元素垂直排列 */
-    align-items: center; /* 使子元素水平居中對齊 */
-    gap: 1rem; /* 設置子元素之間的間距 */
-    background-color: rgba(255, 240, 245, 0.8); /* 設置半透明粉紅色背景 */
-    padding: 2rem; /* 設置內邊距，給容器內部添加空間 */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 1rem; 
+    background-color: rgba(255, 240, 245, 0.8); 
+    padding: 2rem; 
     border-radius: 1rem; /* 設置圓角，使容器邊角圓潤 */
     box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3); /* 添加柔和的陰影，使容器更立體 */
     width: 70%; /* 增加容器寬度（這個設置有點過大，建議使用百分比或者具體像素值） */
