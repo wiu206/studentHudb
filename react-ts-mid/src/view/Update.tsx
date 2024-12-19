@@ -28,8 +28,8 @@ export default function Update() {
 
     return(
         <div className="container1">
-            <input type="text" placeholder="输入ID" value={inputID} onChange={(e) => setInputID(e.target.value)} required/>
-            <input type="text" placeholder="输入修改后姓名" value={inputName} onChange={(e) => setInputName(e.target.value)} required/>
+            <input type="text" placeholder="輸入ID" value={inputID} onChange={(e) => setInputID(e.target.value)} required/>
+            <input type="text" placeholder="輸入修改後姓名" value={inputName} onChange={(e) => setInputName(e.target.value)} required/>
             <button onClick={handleUpdate}>更新</button>
             <a className="return" href="#">返回</a>
         </div>
