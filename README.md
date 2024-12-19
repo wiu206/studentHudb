@@ -20,6 +20,48 @@
 
    # Linux
    sudo apt-get install -y mongodb
+### API規格說明
+請求 URL：http://localhost:0206/api/v1/user/findAll
+
+### 查詢所有學生資訊
+方法：GET
+
+端點：/findAll
+
+請求：
+
+```BASH
+{
+"userName": "tkuxx0000",
+"name": "姓名",
+"department": "科系",
+"grade": "年級",
+"class": "班級",
+"email": "example@gmail.com"
+}
+```
+回應：
+
+```BASH
+{
+{
+    "code": 200,
+    "message": "insert success",
+    "body": {
+        "userName": "tkuxx0000",
+        "sid": "座號",
+        "name": "姓名",
+        "department": "科系",
+        "grade": "年級",
+        "class": "班級",
+        "email": "example@gmail.com",
+        "_id": "ID",
+        "__v": 缺席次數
+    }
+}
+```
+
+
 ### 架構圖 
 ![](1-1.png) 
 ### 流程圖 
